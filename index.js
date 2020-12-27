@@ -7,8 +7,8 @@ const mongoose = require('mongoose')
 const authRoute = require('./routes/auth')
 const mailRoute = require('./routes/mail')
 const journalRoute = require('./routes/journal')
-// const postRoute = require('./routes/posts')
-// const menuRoute = require('./routes/menus')
+const orderRoute = require('./routes/order')
+const menuRoute = require('./routes/menus')
 // const wineRoute = require('./routes/wines')
 const cors = require('cors')
 
@@ -32,8 +32,8 @@ app.use(express.json()) // based on body-parser, included since Express 4.16
 app.use('/api/user', authRoute)
 app.use('/api/mail', mailRoute)
 app.use('/api/journals', journalRoute)
-// app.use('/api/posts', postRoute)
-// app.use('/api/menus', menuRoute)
+app.use('/api/orders', orderRoute)
+app.use('/api/menus', menuRoute)
 // app.use('/api/wines', wineRoute)
 
 

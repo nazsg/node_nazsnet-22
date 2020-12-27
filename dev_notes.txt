@@ -1,0 +1,4 @@
+.env
+DB_CONNECT = mongodb+srv://chloie:chloie1234@cluster0.eccdq.mongodb.net/pavilion?retryWrites=true
+TOKEN_SECRET = f7561a5de875d75bdf7c58e3f669eb7196be79ad0d62cfa0f78a69d41c9b3a93
+NODE_TLS_REJECT_UNAUTHORIZED='0'

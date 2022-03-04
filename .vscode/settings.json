@@ -1,0 +1,13 @@
+{
+  "workbench.colorTheme": "Fresh Material",
+  "editor.semanticTokenColorCustomizations": null,
+  "workbench.colorCustomizations": {
+    "activityBar.background": "#6546ad",
+    "activityBar.foreground" : "#ffebff",
+    "statusBar.foreground" : "#e1f7f7", 
+    "statusBar.background": "#6546ad", 
+    "terminal.foreground" : "#e1f7f7", 
+    "terminal.background": "#1f1631", 
+    "terminalCursor.foreground": "#880fc0", 
+    }
+}

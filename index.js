@@ -46,7 +46,7 @@ app.use('/other', (req, res, next) => {
 //   res.status(404).sendFile(path.join(__dirname, 'views', '404.html'))
 // })
 app.use('/test', (req, res, next) => {
-  res.send('Test')
+  res.send('Test..')
 })
 app.get('/', (req, res, next) => {
   res.sendFile(path.join(__dirname, 'views', 'home.html'))

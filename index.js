@@ -11,6 +11,7 @@ const orderRoute = require('./routes/order')
 const menuRoute = require('./routes/menus')
 // const wineRoute = require('./routes/wines')
 const cors = require('cors')
+const compression = require('compression')
 
 dotenv.config()
 
@@ -20,6 +21,8 @@ mongoose.connect(
   () => console.log('connected to db!')
 )
 
+
+app.use(compression())
 app.use(cors())
 
 app.use(express.static(path.join(__dirname, 'public')))
